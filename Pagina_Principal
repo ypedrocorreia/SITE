@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/../css/css.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>SantaTechs</title>
+</head>
+<body>
+    <header>
+        <nav class="logo-conteiner">
+            <img class="logo" src="/../img/img_logo.png" alt="SantaTechs">
+        </nav>
+            <nav>   
+                <ul class="list_menu">
+                    <li><button class="botao-inicio"><a href="/../html/sobre.html">SOBRE</a></button></li>
+                    <li><button class="botao-inicio"><a href="#">SERVIÇOS</a></button></li>
+                    <li><button class="botao-inicio"><a href="#">CONTATO</a></button></li>
+                </ul>
+            </nav>
+            <nav>
+                <button class="butao"><a href="#">LOGIN</a></button>
+            </nav>
+    </header>
+    <main>
+        <div class="container-slider">
+            <button id="prev-button"><img src="/../img/arrow.png" alt="prev-button"></button>
+            <div class="container-images">
+                <img src="/../img/slider_img3.png" alt="img1" class="slider on">
+                <img src="/../img/slider_img2.png" alt="img2" class="slider">
+                <img src="/../img/slider_img1.png" alt="img3"
+                class="slider">
+            </div>
+            <button id="next-button"><img src="/../img/arrow.png" alt="next-button"></button>
+        </div>
+        <div class="linha">
+            <p></p>
+        </div>
+        <div class="corpo">
+            <div>
+                <img src="/../img/system.png" alt="img-complementar">
+            </div> 
+            <div class="textos">  
+                <h1>SantaTechs</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel est, quaerat molestiae, porro quas enim voluptatum fugit totam rem temporibus facilis debitis voluptates amet blanditiis dolorum fugiat placeat similique impedit.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate rem quidem eligendi quis maxime eos natus consequatur blanditiis est! Delectus dolore iste architecto voluptas numquam itaque nesciunt, aliquam voluptatibus labore?
+                </p>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div class="cell">
+            <span class="material-symbols-outlined">
+                smartphone
+                </span>
+                <p> (55) 99653-9139 </p>
+        </div>
+        <div class="map">
+            <span class="material-symbols-outlined">
+                map
+                </span>
+                <p>Rua Eng. Armando Ribas - 150</p>
+        </div>
+    </footer>
+    <script src="/../js/slider.js"></script>
+</body>
+</html>
